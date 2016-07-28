@@ -1,0 +1,19 @@
+{
+  "name": "imdb",
+  "version": "1.0.0",
+  "description": "POC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abilash",
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "ui-router": "^1.0.0-alpha.3"
+  },
+  "dependencies": {
+    "connect": "^3.4.1",
+    "serve-static": "^1.11.1"
+  }
+}

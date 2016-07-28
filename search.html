@@ -1,0 +1,27 @@
+<div class="row">
+<section class="col-md-offset-2 col-md-4 col-lg-4 col-sm-12 col-xs-12">
+	
+	<h1>IMDB</h1>
+	<div class="input-group">
+		<input type="text" class="form-control" placeholder="Search for movies..." ng-model="searchMovie">
+		<span class="input-group-btn">
+		<button class="btn btn-primary" type="button" ng-click="fetch(searchMovie)" >Search</button>
+		</span>
+	</div>
+</section>
+</div>
+<div>
+<section class="col-md-offset-2 col-md-4 col-lg-4 col-sm-12 col-xs-12">
+	 <article class="row" ng-if="title">
+	    <div class="thumbnail">
+	      <img ng-src="{{poster}}" alt="{{title}}">
+	      <div class="caption">
+	        <h3>{{title}} </h3>
+	        <p>{{plot}}</p>
+	      </div>
+	    </div>
+	</article>
+	
+</section>
+
+</div>
